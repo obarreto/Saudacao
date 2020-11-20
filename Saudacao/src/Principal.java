@@ -12,6 +12,11 @@ public class Principal {
 		c2.nome = "Jetta";
 		c2.velocidade = 0;
 		
+		Carro c3 = new Carro();
+		c3.potencia = 15;
+		c3.nome = "Jetta";
+		c3.velocidade = 0;
+		
 		c1.acelerar();
 		c1.acelerar();
 		c1.acelerar();
@@ -25,7 +30,7 @@ public class Principal {
 		c2.frear();
 		
 		c2.imprimir();
-		
+		c3.imprimir();
 
 	}
 
